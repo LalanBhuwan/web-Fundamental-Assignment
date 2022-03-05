@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.popup {
+  position: fixed;
+  top: 40%;
+  width: 100vw;
+  background-color: chartreuse;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.closeBtn {
+  background-color: red;
+  border: none;
+}
+
+.d-none {
+  display: none;
+}
+
+/* .show {
+  visibility: initial;
+} */

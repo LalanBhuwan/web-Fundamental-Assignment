@@ -1,0 +1,120 @@
+body {
+  margin: auto;
+  background-color: #fff8b5;
+}
+
+.main-container {
+  background-image: url("https://images.pexels.com/photos/2603464/pexels-photo-2603464.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  height: 550px;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+  /* display: inline-block; */
+  text-align: center;
+}
+
+.name-container > label {
+  margin-bottom: 10px;
+  margin-right: 85px;
+}
+
+.email-container > label {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 120px;
+}
+
+.address-container > label {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 112px;
+}
+
+.phone-container > label {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 70px;
+}
+
+.pass-container > label {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 98px;
+}
+
+.confirmPass-container > label {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+
+.check-container {
+  margin-top: 10px;
+}
+
+.singUp-container {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 200px;
+}
+#signUp {
+  background-color: #52d681;
+  border-radius: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  color: white;
+  border: 2px;
+}
+
+.signIn-container {
+  display: inline-block;
+  position: relative;
+  bottom: 38px;
+
+  left: 100px;
+}
+#signIn {
+  background-color: #52d681;
+  border-radius: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 22px;
+  padding-right: 22px;
+  font-size: 15px;
+  color: white;
+  border: 2px;
+}
+
+#signUp:hover {
+  color: red;
+  background-color: #00ad7c;
+}
+#signIn:hover {
+  color: red;
+  background-color: #00ad7c;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  font-size: 150%;
+}
+
+label {
+  color: white;
+  display: block;
+}
+
+.spanClass {
+  color: red;
+}
+
+.termCondition {
+  color: white;
+}

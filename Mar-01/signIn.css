@@ -1,0 +1,50 @@
+body {
+  background-color: #fff8b5;
+}
+
+.container {
+  height: 350px;
+  width: 325px;
+  background-color: #b5ff7d;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 25px;
+}
+.container-mail > label {
+  display: block;
+  position: relative;
+  right: 48px;
+  bottom: 5px;
+}
+.container-mail {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.container-pass > label {
+  display: block;
+  position: relative;
+  right: 35px;
+  bottom: 5px;
+}
+.container-pass {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#signIn {
+  background-color: #00ad7c;
+  text-align: center;
+  margin-left: 140px;
+  margin-top: 25px;
+  color: white;
+  border-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+}

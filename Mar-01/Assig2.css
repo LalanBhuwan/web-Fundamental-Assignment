@@ -1,0 +1,25 @@
+body {
+  background-color: #fff8b5;
+}
+
+button {
+  background-color: #52d681;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style: groove;
+  border-width: 3px;
+  border-radius: 25%;
+  font-size: 20px;
+}
+
+button:hover {
+  border-color: red;
+}
+
+#result {
+  margin-left: 150px;
+  font-size: 50px;
+  position: relative;
+  top: 30px;
+}

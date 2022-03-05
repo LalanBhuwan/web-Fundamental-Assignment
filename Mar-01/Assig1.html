@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Assig1.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div><h4>Registration Form</h4></div>
+
+      <form action="">
+        <div class="name-container">
+          <label for="name">Full Name <span class="spanClass">*</span></label>
+          <input
+            type="text"
+            placeholder="Enter full name"
+            id="fName"
+            required
+          />
+        </div>
+
+        <div class="email-container">
+          <label for="email">Email<span class="spanClass">*</span></label>
+          <input type="email" placeholder="Enter email" id="mail" required />
+        </div>
+        <div class="address-container">
+          <label for="address">Address<span class="spanClass">*</span></label>
+          <input type="text" placeholder="Enter address" id="address" />
+        </div>
+        <div class="phone-container">
+          <label for="number"
+            >Phone number <span class="spanClass">*</span></label
+          >
+          <input type="text" placeholder="Enter mobile number" />
+        </div>
+        <div class="pass-container">
+          <label for="password"
+            >Password <span class="spanClass">*</span></label
+          >
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter password"
+            minlength="8"
+            maxlength="14"
+            required
+          />
+        </div>
+        <div class="confirmPass-container">
+          <label for="confirm password"
+            >Confirm password <span class="spanClass">*</span></label
+          >
+          <input
+            type="password"
+            name="con_password"
+            id="con_password"
+            placeholder="Enter confirm password"
+            required
+          />
+        </div>
+        <div class="check-container">
+          <input type="checkbox" name="checkbox" id="checkbox" required />
+          <span class="termCondition"
+            >I agree Terms of service and privacy policy</span
+          >
+        </div>
+        <div class="singUp-container">
+          <input
+            type="submit"
+            value="Sign Up"
+            name="signUp"
+            id="signUp"
+            onclick="matchPassword()"
+          />
+        </div>
+      </form>
+      <div class="signIn-container">
+        <a href="./signIn.html">
+          <input type="submit" value="Sign In" name="signIn" id="signIn" />
+        </a>
+      </div>
+    </div>
+    <button onclick="printName()">click me</button>
+    <script src="Assig1.js"></script>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+body {
+  margin: 0%;
+  background-color: #f7f7f7;
+}
+img {
+  height: 350px;
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+h2 {
+  display: inline-block;
+  font-size: 15px;
+  font-family: cursive;
+  position: relative;
+  bottom: 10px;
+  cursor: pointer;
+}
+
+.main {
+  display: inline-block;
+}
+
+.like-imag-1 {
+  position: relative;
+  left: 50px;
+}
+
+.like-imag-2 {
+  position: relative;
+  left: 50px;
+}
+
+.like-imag-3 {
+  position: relative;
+  left: 50px;
+}
+
+.like-imag-4 {
+  position: relative;
+  left: 50px;
+}
+
+.dislike-imag-1 {
+  position: relative;
+  left: 200px;
+}
+
+.dislike-imag-2 {
+  position: relative;
+  left: 200px;
+}
+
+.dislike-imag-3 {
+  position: relative;
+  left: 200px;
+}
+
+.dislike-imag-4 {
+  position: relative;
+  left: 200px;
+}
+
+h2:hover {
+  color: rgb(22, 65, 255);
+}

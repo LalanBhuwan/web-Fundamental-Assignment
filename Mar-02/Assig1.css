@@ -1,0 +1,110 @@
+body {
+  margin: 0%;
+  background-color: rgba(192, 192, 17, 0.89);
+}
+
+.container {
+  height: 500px;
+  width: 800px;
+  margin-top: 100px;
+  margin-left: 25%;
+  /* margin-right: auto; */
+  background-color: rgb(255, 255, 2);
+  border-radius: 5%;
+}
+nav {
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav > a:first-child {
+  font-size: 20px;
+  margin-left: 10px;
+  text-decoration: solid, 25px;
+}
+
+nav > a:last-child {
+  float: right;
+  font-size: 10px;
+  color: red;
+  margin-right: 15px;
+}
+
+div {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 10px;
+  text-shadow: 35px;
+  margin-bottom: 8px;
+}
+
+div > a:first-child {
+  margin-right: 15;
+  padding-left: 15px;
+}
+
+div > a:nth-child(2) {
+  margin-right: 15;
+  padding-left: 15px;
+}
+
+div > a:nth-child(3) {
+  margin-right: 15;
+  padding-left: 15px;
+}
+
+div > a:nth-child(4) {
+  margin-right: 15;
+  padding-left: 15px;
+}
+
+.first-section {
+  display: inline-block;
+  margin-left: 55px;
+  height: 400px;
+  width: 300px;
+  margin-top: 25px;
+}
+
+.first-section > :first-child {
+  font-size: 150px;
+  font-stretch: 25px;
+}
+.first-section > :nth-child(2) {
+  color: #f90716;
+  display: block;
+  font-size: 35px;
+  text-decoration: solid;
+  text-shadow: 50px;
+  position: relative;
+  bottom: 20px;
+}
+
+.first-section > :nth-child(3) {
+  font-size: 15px;
+  padding-top: 25px;
+  display: block;
+}
+
+.btn {
+  border: none;
+  background-color: black;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 25px;
+  font-size: 10px;
+}
+
+.second-section {
+  width: 300px;
+  position: relative;
+  bottom: 350px;
+  left: 400px;
+}
