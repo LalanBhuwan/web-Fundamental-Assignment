@@ -1,0 +1,96 @@
+body {
+  margin: 0%;
+  background-color: #f7f7f7;
+}
+img {
+  height: 350px;
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+img:hover {
+  transform: scale(1.1);
+}
+h2 {
+  display: inline-block;
+  font-size: 15px;
+  font-family: cursive;
+  position: relative;
+  bottom: 10px;
+  cursor: pointer;
+}
+
+.main {
+  display: inline-block;
+}
+
+.like-imag-1 {
+  position: relative;
+  left: 50px;
+}
+
+.like-imag-2 {
+  position: relative;
+  left: 50px;
+}
+
+.like-imag-3 {
+  position: relative;
+  left: 50px;
+}
+
+.like-imag-4 {
+  position: relative;
+  left: 50px;
+}
+
+.dislike-imag-1 {
+  position: relative;
+  left: 200px;
+}
+
+.dislike-imag-2 {
+  position: relative;
+  left: 200px;
+}
+
+.dislike-imag-3 {
+  position: relative;
+  left: 200px;
+}
+
+.dislike-imag-4 {
+  position: relative;
+  left: 200px;
+}
+
+h2:hover {
+  color: rgb(22, 65, 255);
+}
+
+.fullImg {
+  display: none;
+  cursor: pointer;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.fullImg img {
+  width: 90%;
+  max-width: 500px;
+}
+.fullImg span {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 30px;
+  color: red;
+  cursor: pointer;
+}

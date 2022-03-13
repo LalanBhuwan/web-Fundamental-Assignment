@@ -1,0 +1,28 @@
+body {
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.container {
+  height: 600px;
+  width: 600px;
+  background-color: #33e9da;
+  text-align: center;
+}
+
+#inp {
+  margin-top: 10px;
+  background-color: #effffd;
+}
+
+#input_btn {
+  background-color: #42c2ff;
+  border: none;
+}
+
+ul {
+  display: inline-block;
+}

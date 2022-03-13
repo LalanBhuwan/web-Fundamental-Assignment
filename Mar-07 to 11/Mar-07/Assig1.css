@@ -1,0 +1,25 @@
+body {
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-container {
+  height: 600px;
+  width: 500px;
+  background-color: #9aa1ad;
+  margin: auto;
+  text-align: center;
+}
+
+input {
+  margin-top: 20px;
+}
+button {
+  background-color: #9aa1ad;
+}
+ul {
+  list-style: none;
+}

@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fdebf7;
+}
+div {
+  height: 30vh;
+  width: 30vw;
+  border-radius: 3%;
+  border: 1px solid lightcoral;
+  text-align: center;
+  margin-top: 10%;
+}
+#minute-text {
+  color: #fc28fb;
+  font-size: 40px;
+  font-family: bold;
+}
+#second_text {
+  color: #fc28fb;
+  font-size: 30px;
+  font-family: bold;
+}
+button {
+  background-color: #ffadf0;
+}
+
+button:hover {
+  background-color: #ffadf0;
+}
+button:active {
+  background-color: red;
+  cursor: pointer;
+  color: white;
+}
+h2 {
+  display: inline;
+  position: relative;
+  bottom: 90px;
+  left: 140px;
+  color: #ffadf0;
+}
